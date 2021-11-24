@@ -5,14 +5,15 @@ function Navbar() {
   return (
     <nav>
       <div className={styles.navbar}>
-        <div className={styles.teste}>
-          <Link href="About">
-            <a className={styles.icon}>About</a>
-          </Link>
-          <Link href="/">
-            <a className={styles.icon}>Home</a>
-          </Link>
-        </div>
+        <Link href="/">
+          <a className={styles.a}>Home</a>
+        </Link>
+        <Link href="/About">
+          <a className={styles.a}>About</a>
+        </Link>
+        <Link href="/Manual">
+          <a className={styles.a}>Manual</a>
+        </Link>
       </div>
     </nav>
   );

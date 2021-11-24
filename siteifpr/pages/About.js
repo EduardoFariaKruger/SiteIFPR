@@ -1,16 +1,16 @@
 import Head from "next/Head";
-import styles from '../styles/Home.module.css';
+import styles from "../styles/Home.module.css";
 
 const About = () => {
   return (
-    <body>
+    <app>
       <Head>
         <title>About</title>
       </Head>
       <div className={styles.container}>
         <h1>About</h1>
       </div>
-    </body>
+    </app>
   );
 };
 

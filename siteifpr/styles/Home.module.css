@@ -1,45 +1,46 @@
 .navbar {
-  background-color: #2F9E3F;
-  justify-content: center;
-  padding: 25px;
+  background-color: #2f9e3f;
+  margin: 0;
+  height: 50px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  align-items: center;
+  border-bottom: 2px solid #2A8937;
   position: fixed;
   top: 0;
   width: 100%;
-  height: 10%;
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-.icon {
-  padding-right: 5px;
-  padding-left: 5px;
-  margin: 0;
-}
-
-.teste {
-  margin-left: 50%;
+  padding-right: 60px;
 }
 
 .container {
-  margin-top: 3.5%;
-  display: inline-block;
   width: 100%;
-  height: 1280px;
+  background-color: red;
+  margin-top: 50px;
 }
 
 .footer {
-  margin-top: 0;
+  display: block;
+  text-align: center;
+  padding: 30px 0;
+  margin-top: 60px;
   background-color: rgb(46, 46, 46);
+  color: #777;
+  border-top: 1px solid #eaeaea;
   position: fixed;
-  width: 100%;
   bottom: 0;
+  width: 100%;
 }
 
-.body {
-  background-color: blue;
+.a {
+  color: #333;
+  text-decoration: none;
+  padding-right: 7px;
+  padding-left: 7px;
+  font-size: 1.5rem;
 }
 
-.title {
-  background-color: grey;
-  justify-content: center;
+.logo {
+  float: left;
+  align-self: center;
 }

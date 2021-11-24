@@ -10,7 +10,7 @@ export default function Home() {
         <title>Home</title>
       </Head>
       <div className={styles.container}>
-        <h1 className={styles.title}>
+        <h1>
           <strong>
             Lorem ipsum dolor sit amet, consectetur adipiscing
             <br />
