@@ -24,7 +24,7 @@ export default function Home() {
         <div className={styles.body}>
           <div className={styles.bodytext}>
             <div className={styles.teste}>
-              <Image src="/blocoCima.png" width={60} height={60} />
+              <Image src="/image/blocoCima.png" width={60} height={60} />
             </div>
             <h1>Placas Raspberry Pi</h1>
             <div className={styles.textrasp}>
@@ -38,7 +38,7 @@ export default function Home() {
             </div>
           </div>
           <div className={styles.bodyimage}>
-            <Image src="/placa.png" width={625} height={350} />
+            <Image src="/images/placa.png" width={625} height={350} />
           </div>
         </div>
       </div>

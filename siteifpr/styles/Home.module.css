@@ -8,6 +8,7 @@
   align-items: center;
   border-bottom: 2px solid #2A8937;
   position: fixed;
+  z-index: 1;
   top: 0;
   width: 100%;
   padding-right: 60px;
@@ -15,7 +16,7 @@
 
 .container {
   width: 100%;
-  height: 110vh;
+  height: 100vh;
   padding-top: 20px;
   background-color: #252424;
   margin-top: 60px;
@@ -25,7 +26,7 @@
 .footer {
   display: block;
   text-align: center;
-  padding: 30px;
+  height: 20vh;
   background-color: rgb(46, 46, 46);
   color: white;
   border-top: 1px solid #eaeaea;
@@ -35,9 +36,10 @@
 
 .a {
   color: rgb(44, 28, 28);
-  padding: 15px;
   font-size: 0.9rem;
 }
+
+
 
 .logo {
   float: left;
@@ -52,6 +54,15 @@
 
 .left {
   float: left;
+}
+
+.manual {
+  width: 100%;
+  height: 100vh;
+  padding-top: 20px;
+  background-color: #252424;
+  margin-top: 40px;
+  text-align: center;
 }
 
 .right {
@@ -70,12 +81,14 @@
   height: 400px;
   background: red;
   padding-top: 22px;
+  position: relative;
+  z-index: 0;
 }
 
 .bodytext {
   flex: 1;
   float: left;
-  height: 600px;
+  height: 400px;
   width: 686px;
   margin-left: 0;
   margin-top: 41px;
@@ -100,7 +113,7 @@
   font-size: 1.75rem;
   margin-left: 30px;
   background: #161414;
-  height: 50%;
+  height: 80%;
   width: 90%;
 }
 
