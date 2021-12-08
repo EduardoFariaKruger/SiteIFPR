@@ -20,7 +20,6 @@
   padding-top: 20px;
   background-color: #252424;
   margin-top: 60px;
-  text-align: center;
 }
 
 .footer {
@@ -36,7 +35,7 @@
 
 .a {
   color: rgb(44, 28, 28);
-  font-size: 0.9rem;
+  font-size: 1.5vw;
   padding: 10px;
 }
 
@@ -53,10 +52,6 @@
   padding-top: 4px;
 }
 
-.left {
-  float: left;
-}
-
 .manual {
   width: 100%;
   height: 100vh;
@@ -67,64 +62,67 @@
 }
 
 .right {
-  float: right;
   padding-top: 20px;
-  margin-right: 15px;
+  padding-left: 30px;
 }
 
 .bodyimage {
-  flex: 1;
-  margin-right: 300px;
-  margin-top: 41px;
-  float: right;
-  margin-right: 0;
-  width: 666px;
-  height: 400px;
+  margin-top: 80px;
+  padding: 15px;
+  width: 600px;
+  height: 380px;
   background: red;
   padding-top: 22px;
-  position: relative;
   z-index: 0;
+  margin-right: 40px;
 }
 
 .bodytext {
-  flex: 1;
-  float: left;
   height: 400px;
-  width: 686px;
-  margin-left: 0;
-  margin-top: 41px;
+  width: 600px;
+  margin-top: 20px;
+  margin-right: 50px;
   text-align: center;
   color: white;
+  min-width: 250px;
 }
 
 .titleback {
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+  width: 50%;
+  padding-left: 30px;
   background-color: #161414;
-  height: 25px;
-  width: 700px;
-  margin-top: 20px;
-  margin-left: 25%;
+  height: 10%;
   border-radius: 50px;
-  padding-bottom: 5.8%;
+  padding-bottom: 85px;
+  margin: auto;
+  min-width: 10%;
+  min-height: 5%;
+}
+
+.body {
+  display: flex;
+  flex-direction: row;
+  margin: 2px;
+  width: 100%;
+  min-width: 30%;
+  max-width: 100%;
+  margin-bottom: 20vh;
 }
 
 .textrasp {
-  padding-left: 50px;
-  padding-right: 50px;
-  padding-top: 10px;
-  font-size: 1.75rem;
-  margin-left: 30px;
+  padding: 20px;
+  font-size: 2.20vw;
+  margin-left: 40px;
   background: #161414;
-  height: 80%;
-  width: 90%;
 }
-
 .teste {
-  flex: 1;
-  float: left;
   margin-left: 0;
 }
 
 .title {
   color: rgb(255, 255, 255);
-  margin-left: 15px;
+  font-size: 2vw;
 }
