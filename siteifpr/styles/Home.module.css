@@ -24,14 +24,25 @@
 }
 
 .footer {
-  display: block;
+  display: flex;
   text-align: center;
   height: 20vh;
   background-color: rgb(46, 46, 46);
   color: white;
   border-top: 1px solid #eaeaea;
-  bottom: 0;
   width: 100%;
+  justify-content: space-around;
+}
+.infosFooter {
+  border-radius: 50px;
+  background-color: #161414;
+  font-size: 60%;
+}
+.textInfos {
+  font-size: 75%;
+  text-align: left;
+  align-content: center;
+  margin-left: 10px;
 }
 
 .a {
@@ -39,7 +50,9 @@
   font-size: 0.9rem;
   padding: 10px;
 }
-
+.down {
+  align-self: flex-end;
+}
 
 
 .logo {
