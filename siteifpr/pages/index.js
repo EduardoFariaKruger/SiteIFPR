@@ -20,7 +20,7 @@ export default function Home() {
           <div className={styles.right}>
             <Image
               src="/images/titulo.svg"
-              width={60}
+              width={40}
               minHeight={5}
               minWidth={5}
               height={40}
