@@ -17,6 +17,9 @@ function navbar() {
         <Link href="/about">
           <a className={styles.a}>Sobre nós</a>
         </Link>
+        <Link href="/contact">
+          <a className={styles.a}>Contato</a>
+        </Link>
         <Link href="/manual">
           <a className={styles.a}>Manual de instruções</a>
         </Link>

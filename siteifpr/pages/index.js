@@ -18,13 +18,13 @@ export default function Home() {
             </h1>
           </div>
           <div className={styles.right}>
-            <Image src="/titulo.svg" width={60} height={40} />
+            <Image src="/images/titulo.svg" width={60} height={40} />
           </div>
         </div>
         <div className={styles.body}>
           <div className={styles.bodytext}>
             <div className={styles.teste}>
-              <Image src="/image/blocoCima.png" width={60} height={60} />
+              <Image src="/images/blocoCima.png" width={60} height={60} />
             </div>
             <h1>Placas Raspberry Pi</h1>
             <div className={styles.textrasp}>
