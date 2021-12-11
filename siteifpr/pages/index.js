@@ -18,15 +18,18 @@ export default function Home() {
             </h1>
           </div>
           <div className={styles.right}>
-            <Image src="/titulo.svg" width={60} height={40} />
+            <Image
+              src="/images/titulo.svg"
+              width={40}
+              minHeight={5}
+              minWidth={5}
+              height={40}
+            />
           </div>
         </div>
         <div className={styles.body}>
           <div className={styles.bodytext}>
-            <div className={styles.teste}>
-              <Image src="/blocoCima.png" width={60} height={60} />
-            </div>
-            <h1>Placas Raspberry Pi</h1>
+            <h1 style={{ fontSize: "2.5vw" }}>Placas Raspberry Pi</h1>
             <div className={styles.textrasp}>
               <p align="justify">
                 Utilizamos placas Raspberry Pi para realizar o projeto
@@ -38,7 +41,15 @@ export default function Home() {
             </div>
           </div>
           <div className={styles.bodyimage}>
-            <Image src="/placa.png" width={625} height={350} />
+            <Image
+              src="/images/placa.png"
+              width={625}
+              minHeight={100}
+              maxHeight={350}
+              minWidth={150}
+              maxWidth={625}
+              height={350}
+            />
           </div>
         </div>
       </div>

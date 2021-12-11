@@ -8,6 +8,7 @@
   align-items: center;
   border-bottom: 2px solid #2A8937;
   position: fixed;
+  z-index: 1;
   top: 0;
   width: 100%;
   padding-right: 60px;
@@ -15,34 +16,50 @@
 
 .container {
   width: 100%;
-  height: 110vh;
+  height: 100vh;
   padding-top: 20px;
   background-color: #252424;
   margin-top: 60px;
-  text-align: center;
 }
 
 .footer {
-  display: block;
+  display: flex;
   text-align: center;
-  padding: 30px;
+  height: 20vh;
   background-color: rgb(46, 46, 46);
   color: white;
   border-top: 1px solid #eaeaea;
-  bottom: 0;
   width: 100%;
+  justify-content: space-around;
+}
+.infosFooter {
+  border-radius: 50px;
+  background-color: #161414;
+  font-size: 60%;
+}
+.textInfos {
+  font-size: 75%;
+  text-align: left;
+  align-content: center;
+  margin-left: 10px;
 }
 
 .a {
   color: rgb(44, 28, 28);
-  padding: 15px;
-  font-size: 0.9rem;
+  font-size: 1.5vw;
+  padding: 10px;
 }
+.down {
+  align-self: flex-end;
+}
+
 
 .logo {
   float: left;
   align-self: center;
 }
+
+
 
 .image {
   flex: 1;
@@ -50,67 +67,78 @@
   padding-top: 4px;
 }
 
-.left {
-  float: left;
+.manual {
+  width: 100%;
+  height: 100vh;
+  padding-top: 20px;
+  background-color: #252424;
+  margin-top: 40px;
+  text-align: center;
 }
 
 .right {
-  float: right;
-  padding-top: 20px;
-  margin-right: 15px;
+  padding-top: 25px;
+  padding-left: 10px;
 }
 
 .bodyimage {
-  flex: 1;
-  margin-right: 300px;
-  margin-top: 41px;
-  float: right;
-  margin-right: 0;
-  width: 666px;
-  height: 400px;
+  margin-top: 80px;
+  padding: 15px;
+  width: 600px;
+  height: 380px;
   background: red;
   padding-top: 22px;
+  z-index: 0;
+  margin-right: 40px;
 }
 
 .bodytext {
-  flex: 1;
-  float: left;
-  height: 600px;
-  width: 686px;
-  margin-left: 0;
-  margin-top: 41px;
+  height: 400px;
+  width: 600px;
+  margin-top: 20px;
+  margin-right: 50px;
   text-align: center;
   color: white;
+  min-width: 250px;
 }
 
 .titleback {
+  display: flex;
+  flex-direction: row;
+  width: 45%;
+  height: 0%;
   background-color: #161414;
-  height: 25px;
-  width: 700px;
-  margin-top: 20px;
-  margin-left: 25%;
   border-radius: 50px;
-  padding-bottom: 5.8%;
+  padding-bottom: 90px;
+  margin: auto;
+  min-width: 10%;
+  min-height: 5%;
+  max-height: 13%;
+  max-width: 50%;
+}
+
+.body {
+  display: flex;
+  flex-direction: row;
+  margin: 2px;
+  width: 100%;
+  min-width: 30%;
+  max-width: 100%;
+  margin-bottom: 20vh;
 }
 
 .textrasp {
-  padding-left: 50px;
-  padding-right: 50px;
-  padding-top: 10px;
-  font-size: 1.75rem;
-  margin-left: 30px;
+  padding: 20px;
+  font-size: 150%;
+  margin-left: 40px;
   background: #161414;
-  height: 50%;
-  width: 90%;
 }
-
 .teste {
-  flex: 1;
-  float: left;
   margin-left: 0;
 }
 
 .title {
   color: rgb(255, 255, 255);
-  margin-left: 15px;
+  font-size: 1.8vw;
+  padding-left: 40px;
 }
