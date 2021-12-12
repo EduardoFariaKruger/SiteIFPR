@@ -3,10 +3,10 @@ import Image from "next/image";
 
 const Footer = () => {
   return (
-    <div className={styles.footer}>
+    <footer className={styles.footer}>
       <div>
         <Image src="/images/blocksUpSide.png" width={80} height={80} /></div>
-      <div>
+      <div className={styles.content}>
         <h1>
           <p className={styles.infosFooter}>Endereço do Campus</p>
         </h1>
@@ -20,7 +20,7 @@ const Footer = () => {
           </p2>
         </h2>
       </div>
-      <div>
+      <div style={{ marginLeft: 30, marginRight: 30}}>
         <h1>
           <p className={styles.infosFooter}>Sobre Nós</p>
         </h1>
@@ -30,7 +30,7 @@ const Footer = () => {
           </p2>
         </h2>
       </div>
-      <div>
+      <div style={{ marginLeft: 30, marginRight: 30}}>
         <h1>
           <p className={styles.infosFooter}>Contato</p>
         </h1>
@@ -44,7 +44,7 @@ const Footer = () => {
       <div className={styles.down}>
         <Image src="/images/blocksDownSide.png" width={110} height={55} />
       </div>
-    </div>
+    </footer>
   );
 };
 

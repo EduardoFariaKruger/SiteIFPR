@@ -43,12 +43,8 @@ export default function Home() {
           <div className={styles.bodyimage}>
             <Image
               src="/images/placa.png"
-              width={625}
-              minHeight={100}
-              maxHeight={350}
-              minWidth={150}
-              maxWidth={625}
-              height={350}
+              width={650}
+              height={400}
             />
           </div>
         </div>
