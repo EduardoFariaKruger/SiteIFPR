@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className={styles.footer}>
       <div>
         <Image src="/images/blocksUpSide.png" width={80} height={80} /></div>
-      <div className={styles.content}>
+      <div>
         <h1>
           <p className={styles.infosFooter}>Endereço do Campus</p>
         </h1>
