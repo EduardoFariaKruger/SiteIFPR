@@ -2,7 +2,7 @@ import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import { useEffect, useRef } from "react";
 
-const manual = () => {
+const Manual = () => {
   const viewer = useRef(null);
 
   useEffect(() => {
@@ -35,4 +35,4 @@ const manual = () => {
   );
 };
 
-export default manual;
+export default Manual;

@@ -34,7 +34,7 @@ export default function Home() {
           <div className={styles.backrasp}>
             <p className={styles.textrasp} align="justify">
               Utilizamos placas Raspberry Pi para realizar o projeto <br />
-              computador solidário, onde montaos kits para as escolas e <br />
+              computador solidário, onde montamos kits para as escolas e <br />
               alunos; contendo nesses kits uma placa Raspberry Pi <br />modelo 4B,
               mouse, teclado, monitores e os adaptadores <br />externos para a
               experiência ser completa.

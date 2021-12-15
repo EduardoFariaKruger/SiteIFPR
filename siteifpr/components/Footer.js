@@ -26,7 +26,7 @@ const Footer = () => {
         </h1>
         <h2>
           <p2 className={styles.textInfos}>
-            Somos alunos do instituto Federal e vlw vlw
+            Somos alunos do instituto Federal
           </p2>
         </h2>
       </div>
