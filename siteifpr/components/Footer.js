@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Footer = () => {
   return (
-    <div className={styles.footer}>
+    <footer className={styles.footer}>
       <div>
         <Image src="/images/blocksUpSide.png" width={80} height={80} /></div>
       <div>
@@ -20,17 +20,17 @@ const Footer = () => {
           </p2>
         </h2>
       </div>
-      <div>
+      <div style={{ marginLeft: 30, marginRight: 30}}>
         <h1>
           <p className={styles.infosFooter}>Sobre Nós</p>
         </h1>
         <h2>
           <p2 className={styles.textInfos}>
-            Somos alunos do instituto Federal e vlw vlw
+            Somos alunos do instituto Federal
           </p2>
         </h2>
       </div>
-      <div>
+      <div style={{ marginLeft: 30, marginRight: 30}}>
         <h1>
           <p className={styles.infosFooter}>Contato</p>
         </h1>
@@ -44,7 +44,7 @@ const Footer = () => {
       <div className={styles.down}>
         <Image src="/images/blocksDownSide.png" width={110} height={55} />
       </div>
-    </div>
+    </footer>
   );
 };
 

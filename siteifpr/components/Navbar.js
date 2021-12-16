@@ -7,21 +7,15 @@ function navbar() {
     <nav>
       <div className={styles.navbar}>
         <div className={styles.image}>
-          <a href='/'>
+          <Link href='/'>
             <Image src="/images/quadradoNavbar.png" width={80} height={50} />
-          </a>
+          </Link>
         </div>
-        <Link href="/">
-          <a className={styles.a}>Principal</a>
+        <Link href="/" className={styles.a}>
+         <text className={styles.a}>Principal</text>
         </Link>
-        <Link href="/about">
-          <a className={styles.a}>Sobre nós</a>
-        </Link>
-        <Link href="/contact">
-          <a className={styles.a}>Contato</a>
-        </Link>
-        <Link href="/manual">
-          <a className={styles.a}>Manual de instruções</a>
+        <Link href="/manual" style={{ margim: 50 }}>
+         <text className={styles.a}>Manual de instruções</text>
         </Link>
       </div>
     </nav>

@@ -19,27 +19,32 @@
   height: 100vh;
   padding-top: 20px;
   background-color: #252424;
+
   margin-top: 60px;
 }
 
 .footer {
   display: flex;
+  flex-direction: row;
   text-align: center;
-  height: 20vh;
+  bottom: 0;
+  height: 25vh;
   background-color: rgb(46, 46, 46);
   color: white;
   border-top: 1px solid #eaeaea;
   width: 100%;
   justify-content: space-around;
+  min-height: 20vh;
 }
 .infosFooter {
   border-radius: 50px;
   background-color: #161414;
-  font-size: 60%;
+  font-size: 1.5vw;
+  margin-left: 10%;
 }
 .textInfos {
-  font-size: 75%;
-  text-align: left;
+  font-size: 1vw;
+  text-align: justify;
   align-content: center;
   margin-left: 10px;
 }
@@ -52,15 +57,10 @@
 .down {
   align-self: flex-end;
 }
-
-
 .logo {
   float: left;
   align-self: center;
 }
-
-
-
 .image {
   flex: 1;
   margin-left: 20px;
@@ -82,63 +82,109 @@
 }
 
 .bodyimage {
-  margin-top: 80px;
   padding: 15px;
-  width: 600px;
-  height: 380px;
-  background: red;
-  padding-top: 22px;
-  z-index: 0;
-  margin-right: 40px;
+  margin-left: 5%;
 }
 
 .bodytext {
   height: 400px;
   width: 600px;
   margin-top: 20px;
-  margin-right: 50px;
-  text-align: center;
   color: white;
   min-width: 250px;
 }
 
 .titleback {
-  display: flex;
-  flex-direction: row;
-  width: 45%;
-  height: 0%;
+  width: 55%;
   background-color: #161414;
   border-radius: 50px;
-  padding-bottom: 90px;
   margin: auto;
-  min-width: 10%;
-  min-height: 5%;
-  max-height: 13%;
-  max-width: 50%;
+  justify-content: center;
 }
 
 .body {
   display: flex;
   flex-direction: row;
-  margin: 2px;
-  width: 100%;
-  min-width: 30%;
-  max-width: 100%;
-  margin-bottom: 20vh;
+  margin-left: 2%;
+  margin: auto;
+}
+.ballon {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
-.textrasp {
+.backrasp {
   padding: 20px;
-  font-size: 150%;
-  margin-left: 40px;
   background: #161414;
+  color: #eaeaea;
 }
 .teste {
   margin-left: 0;
 }
-
 .title {
   color: rgb(255, 255, 255);
-  font-size: 1.8vw;
-  padding-left: 40px;
+  font-size: 180%;
 }
+.titlerasp {
+  color: rgb(255, 255, 255);
+  font-size: 15 0%;
+  text-align:center;
+  margin-top: 3%;
+  margin-block-end: 3%;
+  font-size: 150%;
+}
+.textrasp {
+  text-align: justify;
+}
+.raspblocks {
+  display: flex;
+  flex-direction: column;
+  margin-left: 2%;
+}
+
+@media screen and (max-width: 639px) {
+  .textrasp {font-size: 15px; }
+  .title {
+    color: rgb(255, 255, 255);
+    font-size: 130%;
+  }
+  .titlerasp {
+    color: rgb(255, 255, 255);
+    font-size: 15 0%;
+    text-align:center;
+    margin-top: 3%;
+    margin-block-end: 3%;
+    font-size: 100%;
+  }
+  .body {
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+  }
+  .bodytext {
+    margin: 0;
+    padding: 0;
+    height: 200px;
+    margin: auto;
+  }
+  .bodyimage {
+    margin: 0;
+    padding: 0;
+    height: 200px;
+    width: 50%;
+    margin: auto;
+  }
+}
+
+.image {
+  width: 100%;
+  height: 325px;
+}
+@media (min-width: 640px) {
+    .textrasp {font-size: 15px; }
+    
+  }
+
+@media (min-width:960px) { .textrasp {font-size: 20px;} } 
+@media (min-width:1100px) { .textrasp {font-size: 30px;} }
